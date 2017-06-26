@@ -3,26 +3,24 @@ package org.library;
 /**
  * Created by kano on 18.06.17.
  */
-import java.util.Arrays;
-import java.util.Scanner;
+import java.util.Calendar;
 
 public class Books {
 
-    String bookTitle[];
-    String authorName[];
-    String isbn[];
-    String date[];
+    private long isbn;
+    private String author;
+    private String name;
+    private Calendar releaseYear;
 
-   protected Books() {
+    public Books() {}
 
-       bookTitle = new String[5];
-       authorName = new String[5];
-       isbn = new String[5];
-       date = new String[5];
+    public Books(long isbn, String author, String name, Calendar releaseYear) {
+        this.isbn = isbn;
+        this.author = author;
+        this.name = name;
+        this.releaseYear = releaseYear;
+    }
 
-   }
-
-   //setArraysValues
 
 
 }
