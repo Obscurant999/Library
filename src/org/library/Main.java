@@ -21,7 +21,7 @@ public class Main {
         library.setAddress("Moskovsky prospect");
         library.addBook(book001);
         library.addBook(book002);
-        library.addBook(book003);
+     //   library.addBook(book003);
 
 
         }
