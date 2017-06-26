@@ -1,6 +1,7 @@
 package org.library;
 
 /**
+<<<<<<< HEAD
  * Created by 057000-07165 on 26.06.2017.
  */
 import java.util.ArrayList;
@@ -35,3 +36,4 @@ public class Library {
         bookList.add(bookN);
     }
 }
+
